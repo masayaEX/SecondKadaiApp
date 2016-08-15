@@ -12,6 +12,7 @@
 		525F938B1D57202700D8123A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525F93891D57202700D8123A /* Main.storyboard */; };
 		525F938D1D57202700D8123A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525F938C1D57202700D8123A /* Assets.xcassets */; };
 		525F93901D57202700D8123A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525F938E1D57202700D8123A /* LaunchScreen.storyboard */; };
+		525F93981D57284900D8123A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F93971D57284900D8123A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		525F938C1D57202700D8123A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		525F938F1D57202700D8123A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525F93911D57202700D8123A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525F93971D57284900D8123A /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				525F93851D57202700D8123A /* AppDelegate.swift */,
 				525F93871D57202700D8123A /* ViewController.swift */,
 				525F93891D57202700D8123A /* Main.storyboard */,
+				525F93971D57284900D8123A /* ResultViewController.swift */,
 				525F938C1D57202700D8123A /* Assets.xcassets */,
 				525F938E1D57202700D8123A /* LaunchScreen.storyboard */,
 				525F93911D57202700D8123A /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				525F93881D57202700D8123A /* ViewController.swift in Sources */,
 				525F93861D57202700D8123A /* AppDelegate.swift in Sources */,
+				525F93981D57284900D8123A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				525F93961D57202700D8123A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
